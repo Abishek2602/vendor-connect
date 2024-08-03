@@ -45,10 +45,9 @@ function Dashboard() {
       console.log("user:",user)
     }
     console.log("uyrs")
-      if(!user){
+      
       navigate('/login')
-      return
-      }
+      
       
 
     dispatch(getGoals())
@@ -70,10 +69,9 @@ function Dashboard() {
 
     
       console.log("uyr")
-      if(!user){
+      
       navigate('/login')
-      return
-    }
+      
 
     dispatch(getGoals())
     dispatch(getOtherGoals())
@@ -91,10 +89,9 @@ function Dashboard() {
       console.log(message)
     }
 
-      if(!user){
+      
       navigate('/login')
-      return 
-      }
+      
       
       
 
@@ -114,10 +111,8 @@ function Dashboard() {
       console.log(message3)
     }
 
-      if(!user){
       navigate('/login')
-      return
-      }
+
 
     dispatch(getGoals())
     dispatch(getOtherGoals())

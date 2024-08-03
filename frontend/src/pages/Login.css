@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("D:\mern-tutorial-main\frontend\public\bg.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("bg.png");
     background-size: cover; /* Adjust this as needed */
     background-repeat: no-repeat; /* Adjust this as needed */
     background-attachment: fixed; /* Adjust this as needed */
